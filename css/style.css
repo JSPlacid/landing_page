@@ -1,0 +1,152 @@
+/* ******colors******** */
+:root {
+   --primarycolor: rgb(24, 5, 5);
+   --secondarycolor: #fff;
+   --tertiarycolor: darkslategray;
+   --logocolor: rgb(141, 83, 18);
+}
+
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+   width: 150px;
+}
+
+h2, h3, h4, p{
+   color: var(--tertiarycolor)
+}
+.links{
+   display: flex;
+   padding: 4px 10px;
+   list-style: none;
+   padding-block: 1.4rem;
+}
+
+.links a{
+   padding: 5px;
+   text-decoration: none;
+}
+
+.links a:hover{
+   color: hotpink;
+}
+.repo{
+   color: blueviolet;
+   font-weight: bolder;
+}
+section{
+   padding: 4px;
+}
+/* ************** general ends*********** */
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding: 4px;
+   align-items: center;
+   height: 56px;
+}
+
+/* .logo{
+   column-rule: var(--tertiarycolor);
+   background-color: rgb(222, 243, 243);
+   padding: 5px;
+   border-radius: 20px;
+} */
+
+.nav ul{
+   display: flex;
+   padding: 2rem;
+   border-radius: 4px;
+}
+
+.nav li{
+   list-style: none;
+}
+.nav li a{
+   color: var(--tertiarycolor);
+   border-radius: 4px;
+   text-decoration: none;
+   padding: .6em;
+}
+
+.nav li a:hover{
+  border-bottom: solid 2px var(--primarycolor);
+}
+
+
+#feature {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   line-height: 1.5;
+   margin-top: 3rem;
+}
+#feature h2{
+   color: var(--tertiarycolor);
+   padding: 5px;
+   text-align: center;
+}
+#feature h3{
+   padding-bottom: 4px;
+}
+.feat1{
+   display: flex;
+   
+}
+
+.feat2{
+   display: flex;
+}
+
+.feat3{
+   display: flex;
+}
+
+.feat1, .feat1-text {
+padding: 20px;
+}
+
+.feat2, .feat2-text{
+padding: 20px;
+}
+
+.feat3, .feat3-text{
+padding: 20px;
+}
+
+.about{
+   text-align: center;
+   padding-block: 1.5em;
+}
+#about h3{
+   padding-bottom: 6px;
+}
+
+.group{
+   display: flex;
+   gap: 4rem;
+}
+.contat{
+   display: flex;
+   gap: 2em;
+}
+.contat a{
+   text-decoration: none;
+   color: var(--logocolor);
+
+}
+.partners p{
+   color: var(--logocolor);
+}
+footer {
+   height: 4vh;
+   /* background-color: var(--primarycolor); */
+   text-align: center;
+}

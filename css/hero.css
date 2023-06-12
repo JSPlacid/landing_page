@@ -1,0 +1,48 @@
+/* ******Typography********* */
+
+.hero{
+   height: 100vh;
+   /* background-color: rgb(136, 231, 238); */
+   display: flex;
+   align-items: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+   background-image: url(../imgs/coolphoto4library.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+}
+
+.hero-content{
+   display: block;
+}
+.hero-content {
+   padding-top: 220px;
+   /* margin-top: 100px; */
+   
+}
+
+.hero-content h2{
+   color: #fff;
+   padding-left: 20px;
+}
+.hero-content p{
+   color: #fff;
+   padding-left: 20px;
+}
+
+button{
+   border-radius: 15px;
+   padding: 6px;
+   position: absolute;
+      right: 8%;
+      bottom: 8%;
+}
+button:hover{
+   background-color: var(--primarycolor);
+}
+.explore{
+   text-decoration: none;
+   color: var(--tertiarycolor);
+}
