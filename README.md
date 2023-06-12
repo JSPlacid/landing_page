@@ -1,4 +1,4 @@
 ## Landing page repo.
  this repository describes the simple library projects, features and how it was inspired
  #### How to use this page
- `landing_page.github.io`
+ `https://simplelibrary-production-b159.up.railway.app/`
