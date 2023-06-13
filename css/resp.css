@@ -2,7 +2,7 @@
    
    img{
       width: 97%;
-      height: 310px;
+      height: 260px;
    }
 
    /* ***********  typography  ************* */
@@ -53,9 +53,9 @@
       padding: 4px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      row-gap: 2rem;
-      column-gap: .5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+      row-gap: 1.4rem;
+      column-gap: .4rem;
    }
    .feat1{
       display: flex;
