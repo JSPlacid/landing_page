@@ -12,4 +12,4 @@ This page is powered by the folowing:
 #### Support and contact
 for any related questions, issue or support to this page, you can initiate an issue on the project's github repository.
 
-**github repo**: 'github.com/JSPlacid/landing_page'.
+**github repo**: ```github.com/JSPlacid/landing_page```.
