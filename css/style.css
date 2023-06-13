@@ -147,6 +147,10 @@ padding: 20px;
 .partners p{
    color: var(--logocolor);
 }
+.touch{
+   font-size: .7em;
+   color: var(--logocolor);
+}
 footer {
    height: 4vh;
    /* background-color: var(--primarycolor); */
