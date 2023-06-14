@@ -28,6 +28,13 @@
       right: 8%;
       bottom: 8%;
    }
+
+   .nav ul{
+      display: flex;
+      padding: 1.8rem;
+      border-radius: 4px;
+   }
+
    .explore{
       font-size: 1.6rem;
       text-decoration: none;

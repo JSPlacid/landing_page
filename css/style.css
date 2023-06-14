@@ -31,6 +31,10 @@ h2, h3, h4, p{
    padding-block: 1.4rem;
 }
 
+.quote{
+   color: var(--primarycolor);
+}
+
 .links a{
    padding: 5px;
    text-decoration: none;
@@ -57,23 +61,20 @@ section{
    align-items: center;
    height: 56px;
 }
-
-/* .logo{
-   column-rule: var(--tertiarycolor);
-   background-color: rgb(222, 243, 243);
-   padding: 5px;
-   border-radius: 20px;
-} */
+.indent{
+   text-indent: .5cm;
+}
 
 .nav ul{
    display: flex;
-   padding: 2rem;
+   padding: 3px;
    border-radius: 4px;
 }
 
 .nav li{
    list-style: none;
 }
+
 .nav li a{
    color: var(--tertiarycolor);
    border-radius: 4px;
@@ -85,6 +86,9 @@ section{
   border-bottom: solid 2px var(--primarycolor);
 }
 
+.nav li a:active{
+   background-color: var(--logocolor);
+ }
 
 #feature {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
