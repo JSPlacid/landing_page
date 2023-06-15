@@ -103,16 +103,8 @@ section{
 #feature h3{
    padding-bottom: 4px;
 }
-.feat1{
+.feat1, .feat2, .feat3{
    width: 98%;   
-}
-
-.feat2{
-   width: 98%;
-}
-
-.feat3{
-   width: 98%;
 }
 
 .feat1, .feat1-text {
